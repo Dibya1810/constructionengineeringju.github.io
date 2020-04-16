@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img{
+    height: 165px;
+    width: 728px;
+    padding-left: 10px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: red!important;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+ }
+ #slider{
+     width: 100%;
+
+ }
+ .carousel-caption{
+     position: sticky;
+     top: 50%;
+     transform: translateY(-50%);
+     bottom: initial!important;
+ }
+ .carousel-caption h3{
+     position: sticky;
+     z-index: 10;
+    font-family: 'Noto Sans', sans-serif;
+     margin-top: -10px;
+     font-weight: 60;
+     font-size: 60px;
+     letter-spacing: 5px;
+     color: #fff;
+     text-transform: uppercase;
+ }
+ .carousel-caption h4{
+     position: sticky;
+ }
+ .about-content{
+     
+     font-size: 60px;
+ }
+ .col-md-6 h1{
+     
+     letter-spacing: 5px;
+ }
+ #about{
+     padding-top: 50px;
+     padding-bottom: 70px;
+     color: #555;
+ }
+ #about .btn{
+     margin-top: 47px;
+     margin-bottom: 30px;
+
+ }
+.about-content{
+    padding-top: 20px;
+    text-align: left;
+}
+.skills-bar{
+    margin-bottom: 16px;
+
+}
+.progress-bar
+{
+    border-radius: 20px;
+}
+.progress{
+    border-radius: 16px!important;
+    margin-bottom: 20px;
+}
+#services
+{   
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(civil4.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services h1{
+    text-align: center;
+    color: #efefef!important;
+    padding-bottom: 10px;
+    
+}
+#services h1::after{
+    content: '';
+    background: #efefef;
+    display: black;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.services{
+    margin-top: 40px;
+    text-align: center;
+}
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 150px;
+    width: 152px;
+    border-radius: 50%%;
+}
+
+.icon img{
+    border-radius: 50%;
+}
+.icon h5{
+    display: block;
+    width: 12px;
+    margin: auto;
+}
+#services p{
+    font-size: 18px;
+    margin-top: 20px;
+    color: #ccc;
+
+}
+.services .col-md-3:hover{
+    background: ;
+}
+
+.btn btn-primary{
+    width: 30px;
+}
+.container-fluid{
+    width: 13px;
+}
+.btn a{
+    text-decoration: none;
+}
